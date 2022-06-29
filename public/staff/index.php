@@ -1,25 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>GBI - PHP System</title>
-    </head>
+<?php require_once('../../private/initialize.php');?>
 
-    <body>
-        <header>
-            <h1>GBI Staff Area</h1>
-        </header>
+<?php $page_title = "Staff Menu"; ?>
 
-        <nav>
-            <ul>
-                <li><a href="index.php">Menu</a></li>
-            </ul>
-        </nav>
+<?php include('../../private/shared/staff_header.php') ?>
 
-        <footer>
+<div class="content-area">
+    
+</div>
 
-        </footer>
-    </body>
-</html>
+<?php include('../../private/shared/staff_footer.php') ?>
