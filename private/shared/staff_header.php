@@ -11,7 +11,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="<?php echo url_for('/styles/style.css')?>">
         <title>GBI - <?php echo $page_title; ?> </title>
     </head>
 
@@ -22,6 +22,13 @@
 
         <nav>
             <ul>
-                <li><a href="index.php">Menu</a></li>
+                <li><a href="<?php echo url_for('/staff/index.php') ?>">Menu</a></li>
             </ul>
         </nav>
+
+        <div>
+            <?php 
+                $understanding_variable = url_for("staff/index.php");
+                echo $understanding_variable;
+            ?>
+        </div>
