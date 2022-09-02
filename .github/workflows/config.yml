@@ -1,7 +1,8 @@
-name: eullesonsoares.stgsites.dev php
-  on:
-    push:
-      branches:
+name: eullesonsoares.stgsites.dev.br php
+
+on:
+  push:
+    branches:
       - main
 
 jobs:
